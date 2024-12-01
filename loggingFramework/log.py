@@ -6,3 +6,6 @@ class Log:
         self.logLevel = loglevel
         self.message = message
         self.timestamp = int(time.time())
+
+    def getLogLevel(self):
+        return self.logLevel
